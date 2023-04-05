@@ -93,6 +93,13 @@ $(document).ready(function() {
           $('.navbar-brand h2').css('color', 'white');
         }
       });
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 80) {
+          $('.navbar-toggle .icon-bar').css('background-color', 'black');
+        } else {
+          $('.navbar-toggle .icon-bar').css('background-color', 'white');
+        }
+      });
     
     
       $(window).scroll(function() {
@@ -247,4 +254,6 @@ $(document).ready(function() {
     });
 
 });
+
+let tabs = document.getElementsByClassName('nav-tab');
 
