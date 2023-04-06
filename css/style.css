@@ -231,7 +231,7 @@ ul, ol, li {
 }
 
 .navbar-lg .navbar-brand h2{
-	padding: 0 0 0;
+	padding: 25px 0 0;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-family: poppins;
@@ -1830,6 +1830,10 @@ ul, ol, li {
 	font-size: 30px;
 	margin: 0px 0 20px;
 	line-height: 40px;
+}
+
+.info-content img {
+	user-select: none;
 }
 
 .info-content p {
@@ -6287,6 +6291,9 @@ input:focus, textarea:focus {
 		left: 0;
 	}
 @media (max-width: 768px) {
+	.navbar-lg .navbar-brand h2{
+		padding: 0;
+	}
 	.intro1 {
 		padding: 200px 0 150px;
 	}
